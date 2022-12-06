@@ -1,4 +1,2 @@
-from math import *
-myNum = 8.8
-
-print(sqrt(myNum))
+user_name = input("Hey what is your name?")
+print("Hello " + user_name)
