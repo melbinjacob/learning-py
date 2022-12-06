@@ -1,2 +1,2 @@
-a = 5
-print(a)
+name = 3
+print(name)
