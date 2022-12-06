@@ -1,2 +1,4 @@
-my_num = 7.8
-print(min(7, 29))
+from math import *
+myNum = 8.8
+
+print(ceil(myNum))
