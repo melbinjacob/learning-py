@@ -1,2 +1,3 @@
-name = input("Enter your name:")
-print(name)
+name = input("What is you name : ")
+
+print("Your name have " + str(len(name)) + " letters")
