@@ -1,2 +1,2 @@
-name = 3
+name = input("Enter your name:")
 print(name)
