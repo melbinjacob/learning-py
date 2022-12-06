@@ -1,2 +1,2 @@
-vallue = "Girraffe Academy"
-print(vallue.upper().isupper())
+phrase = "Giraffe Academy"
+print(phrase.index("A"))
