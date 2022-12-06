@@ -1,2 +1,2 @@
 phrase = "Giraffe Academy"
-print(phrase.index("A"))
+print(phrase.replace("Giraffe", "Melbin"))
