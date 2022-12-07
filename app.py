@@ -11,4 +11,4 @@ shopping_cart = [
     ]
 ]
 
-print(shopping_cart[5][0])
+print(shopping_cart[-1][0])
