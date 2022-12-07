@@ -1,9 +1,9 @@
-intiger = 2
-string = "I am a string"
-floating = "2.22"
-boolian = True
+shopping_cart = [
+    "Potato",
+    "Tomato",
+    "Apple",
+    "Apple",
+    "Orange"
+]
 
-print (type(intiger))
-print (type(string))
-print(type(floating))
-print(type(boolian))
+print(shopping_cart[2])
