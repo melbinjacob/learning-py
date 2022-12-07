@@ -1,25 +1,5 @@
-menu = [
-    "Mutta",
-    "Biriyani",
-    "Dosa",
-    "Appam",
-    "Puttu",
-    "Idiyappam",
-    "Poori"
-] 
-print(menu)
+color = input("Enter a color : ")
+plural_noun = input("Enter a plural noun : ")
+celebrity = input("Enter a celebrity : ")
 
-item = int(input("Enter a number : "))
-
-if item == 1:
-    print(menu[0])
-elif item == 2:
-    print(menu[1])
-elif item == 3:
-    print(menu[2])
-elif item == 4:
-    print(menu[5])
-elif item == 5:
-    print(menu[6])
-else :
-    print("Invalid")
+print("Roases are " + color + " Violets are " + plural_noun + " I love " + celebrity)
