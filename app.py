@@ -1,3 +1,3 @@
 user_name = input("Hey what is your name? ")
-age = ( input("How old are you " + user_name +  " ? "))
-print("Hello " + user_name + ", You are " + age + " Years old!")
+
+print( "Hello " + user_name + ", Your name have " +str(len(user_name)) + " letters")
