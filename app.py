@@ -1,14 +1,12 @@
-shopping_cart = [
-    "Potato",
-    "Tomato",
-    "Apple",
-    "Apple",
-    "Orange",
-    [
-        "Meat",
-        "Fish",
-        "6"
-    ]
+#my name letter variable
+my_letters = [
+    "m",
+    "e",
+    "l",
+    "b",
+    "i",
+    "n"
 ]
-
-print(shopping_cart[-1][0])
+print(my_letters[1:4])
+print(my_letters[:-1])
+print(my_letters[0:])
