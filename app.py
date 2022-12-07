@@ -1,3 +1,9 @@
-user_name = input("Hey what is your name? ")
+intiger = 2
+string = "I am a string"
+floating = "2.22"
+boolian = True
 
-print( "Hello " + user_name + ", Your name have " +str(len(user_name)) + " letters")
+print (type(intiger))
+print (type(string))
+print(type(floating))
+print(type(boolian))
