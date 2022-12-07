@@ -3,7 +3,12 @@ shopping_cart = [
     "Tomato",
     "Apple",
     "Apple",
-    "Orange"
+    "Orange",
+    [
+        "Meat",
+        "Fish",
+        "6"
+    ]
 ]
 
-print(shopping_cart[2])
+print(shopping_cart[5][0])
