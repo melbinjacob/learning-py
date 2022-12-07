@@ -1,3 +1,18 @@
-change = [1 , 2 ,4 ,5]
-change.insert(2, 3)
-print(change)   
+num = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7    
+]
+num[6:7] = [
+    0,
+    0,
+    0,
+    0,
+    0
+]
+
+print(num)
