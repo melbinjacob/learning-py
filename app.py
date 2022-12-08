@@ -1,5 +1,13 @@
-color = input("Enter a color : ")
-plural_noun = input("Enter a plural noun : ")
-celebrity = input("Enter a celebrity : ")
+set1 = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+]
 
-print("Roases are " + color + " Violets are " + plural_noun + " I love " + celebrity)
+total = 1
+for x in set1:
+    total = total * x
+print(total)
