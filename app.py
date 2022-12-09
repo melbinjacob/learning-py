@@ -1,10 +1,9 @@
-
-a = input("Enter a number (A):")
-b = input("Enter another number (B) :")
-
-if a > b:
-    print("A is grater than B")
-elif a == b:
-    print("A and B are equal")
-else:
-    print("A is not greater than B")
+a = 60; 
+if a > 10:
+    print("A is grater than 10")
+if a > 20:
+    print("A is also grater than 20")
+if a > 30:
+    print("A is also grater than 30")
+if a > 50:
+    print("A is also grater than 50")
