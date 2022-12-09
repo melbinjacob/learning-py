@@ -1,12 +1,12 @@
-dict = {
-    "brand" : "Ford",
-    "model" : "Musthang",
-    "Year"  : 1989
+nested_dictnory = {
+    "child" : {
+        "name" : "Rajan",
+        "year" : 2002
+    },
+    "child2" : {
+        "name" : "Sabu",
+        "year" : 9229
+    }
 }
 
-dict["Color"] = "blue"
-dict.popitem()
-del dict["brand"]
-dict.clear()
-del dict
-print(dict)
+print(nested_dictnory["child"]["name"])
