@@ -1,13 +1,12 @@
-set1 = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-]
+dict = {
+    "brand" : "Ford",
+    "model" : "Musthang",
+    "Year"  : 1989
+}
 
-total = 1
-for x in set1:
-    total = total * x
-print(total)
+dict["Color"] = "blue"
+dict.popitem()
+del dict["brand"]
+dict.clear()
+del dict
+print(dict)
