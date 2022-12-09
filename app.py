@@ -4,6 +4,6 @@ a_dictnory = dict(
     Male = True
 )
 
-value = a_dictnory.values()
+a_dictnory["Name"] = "Arun"
 
-print(value)
+print(a_dictnory)
