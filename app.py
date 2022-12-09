@@ -1,12 +1,8 @@
 nested_dictnory = {
-    "child" : {
-        "name" : "Rajan",
-        "year" : 2002
-    },
-    "child2" : {
-        "name" : "Sabu",
-        "year" : 9229
-    }
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
 }
 
-print(nested_dictnory["child"]["name"])
+print(len(nested_dictnory))
