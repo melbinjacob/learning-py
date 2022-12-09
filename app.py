@@ -1,12 +1,7 @@
-dict = {
-    "brand" : "ford",
-    "Abs" : False,
-    "Year" : 1902,
-    "Colours" : [
-        "Red",
-        "Blue",
-        "Green"
-    ]
-}
+a_dictnory = dict(
+    Name = "Melbin",
+    Year = 2002,
+    Male = True
+)
 
-print(dict)
+print(a_dictnory)
