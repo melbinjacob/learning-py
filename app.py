@@ -4,6 +4,8 @@ a_dictnory = dict(
     Male = True
 )
 
-dict_value = a_dictnory.keys()
+print(a_dictnory)
 
-print(dict_value)
+a_dictnory["Hair"] = "Brunnete"
+
+print(a_dictnory)
