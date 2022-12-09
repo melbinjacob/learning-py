@@ -1,8 +1,12 @@
-nested_dictnory = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964,
-  "year": 2020
+dict = {
+    "brand" : "ford",
+    "Abs" : False,
+    "Year" : 1902,
+    "Colours" : [
+        "Red",
+        "Blue",
+        "Green"
+    ]
 }
 
-print(len(nested_dictnory))
+print(dict)
