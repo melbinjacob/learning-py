@@ -6,6 +6,5 @@ friends = [
         "Bonny"
 ]
 
-print(friends[2:])
-print(friends[2:6])
-print(friends[2:-1])
+friends[0] = "Devu"
+print(friends[0])
