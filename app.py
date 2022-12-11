@@ -1,10 +1,5 @@
-friends = [
-        "Arun",
-        "Ajith",
-        "Abijith",
-        "Alen",
-        "Bonny"
-]
+luckey_numbers =        [ 2, 4, 6, 8, 10, 12, 14, 16]
+friends = [ "Arun", "Abhijith", "Alen", "Bonny", "Jesla", "Yashi"]
 
-friends[0] = "Devu"
-print(friends[0])
+friends.extend(luckey_numbers)
+print(friends)
