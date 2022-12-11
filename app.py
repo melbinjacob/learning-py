@@ -6,4 +6,5 @@ friends = [
         "Bonny"
 ]
 
-print(friends)
+print(friends[0])
+print(friends[2])
