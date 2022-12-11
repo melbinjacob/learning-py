@@ -1,5 +1,6 @@
-luckey_numbers =        [ 2, 4, 6, 8, 10, 12, 14, 16]
-friends = [ "Arun", "Abhijith", "Alen","Jesla", "Alen","Alen","Alen", "Bonny", "Yashi"]
+#Tuples
+#Tuples are Immutable that means we cannot change the data inside a tuple once it's created
 
-friends1 = friends.copy() #Creates a  copy of freinds list and assigned it to the new friends1 variable
-print(friends1)
+cord = ( 4, 5 )
+
+print(cord[0])  
