@@ -1,9 +1,6 @@
-#functions in python
+#Return statements in python functions
 
-#Creating the function
-def hello(name):
-        name = input("Hey, what is your name ? ")
-        print("Hello " + name)
-
-#Calling the function
-hello("")
+def cube(num):
+        return num*num*num
+value = cube(100)
+print(value)
