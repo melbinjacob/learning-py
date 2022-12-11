@@ -1,6 +1,9 @@
-#Tuples
-#Tuples are Immutable that means we cannot change the data inside a tuple once it's created
+#functions in python
 
-cord = ( 4, 5 )
+#Creating the function
+def hello():
+        user = input("Hey, what is your name ? ")
+        print("Hello " + user)
 
-print(cord[0])  
+#Calling the function
+hello()
