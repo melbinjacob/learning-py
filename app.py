@@ -1,14 +1,37 @@
-num1 = float(input("Enter the first number: "))
-op = input("Enter the first operator: ")
-num2 = float(input("Enter the second number: "))
+mo_conv = {
+        "Jan" : "January",
+        "Feb" : "February",
+        "Mar" : "March",
+        "Apr" : "April",
+        "May" : "May",
+        "Jun" : "June",
+        "Aug" : "August",
+        "Sep" : "September",
+        "oct" : "October",
+        "Nov" : "November",
+        "Dec" : "December"
+}
 
-if op == "+" :
-        print(num1 + num2)
-elif op == "-" :
-        print(num1 - num2)
-elif op == "*" :
-        print(num1 * num2)
-elif op == "/":
-        print(num1 / num2)
-else:
-        print("Invalid operator")
+print(mo_conv["Dec"])
+print(mo_conv.get("Dec"))
+print(mo_conv.get("Lov", "Not a valid key"))
+
+nu_conv = {
+        1 : 10,
+        2 : 20,
+        3 : 30,
+        4 : 40,
+        5 : 50,
+        6 : 60,
+        7 : 70,
+        8 : 80,
+        9 : 90,
+        10 : 100
+}
+
+#you can store any type of key value pairs in dict
+rand = {
+        1 : True,
+        "True" : False,
+        False : 3.4,
+}
