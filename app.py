@@ -1,18 +1,17 @@
 secret_word = "melbin"
-
 guess = ""
 
-tries = 0
-left = 4
+no_of_guess = 0
+guess_limit = 3
+lost = False
 
-while tries <= 3 and guess != secret_word:
-        guess = input("I am you enter who am I : ")
-        tries = tries + 1
-        no = left - tries
-        
-        if guess == secret_word:
-                print("You won!")
-        else: 
-                print("You have " + str(no) + " tries left!")
-                if no == 0 :
-                        print("You have no tries left you have lost the game")
+while secret_word != guess and not(lost):
+        if no_of_guess < guess_limit:
+                guess = input("I am you Enter Who am I: ")
+                no_of_guess += 1
+        else:
+                lost = True
+if lost:
+        print("You have no guesses left and YOU LOST THE GAME!")
+else:
+        print("You won!")
