@@ -1,16 +1,17 @@
-mark = float(input("Enter your Marks : "))
+name1 = input("What is your name? ")
+person1 = int(input( name1 + " what's your age : "))
 
-if mark < 0 :
-        print("Invalid input")
-elif mark < 25:
-        print("Your grade is : F")
-elif mark <= 45:
-        print("Your grade is : D")
-elif mark <= 50:
-        print("Your grade is : D")
-elif mark <= 60:
-        print("Your grade is : C")
-elif mark <= 80:
-        print("Your grade is : B")
+name2 = input("What is your name ? ")
+person2 = int(input( name2 + " what's your age : "))
+
+name3 = input("What is your name ? ")
+person3 = int(input( name3 + " what's your age : "))
+
+if person1 > person2 and person1 > person3:
+        print(name1 + " is the oldest")
+elif person1 == person2 and person2 == person3:
+        print("All of you have the same age")
+elif person2 > person1 and person2 > person3:
+        print(name2 + " is the oldest")
 else :
-        print("Your grade is : A")
+        print(name3 + " is the oldest")
