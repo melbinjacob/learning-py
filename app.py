@@ -1,8 +1,8 @@
-salary = int(input("Enter your salary : "))
+length = float(input("Enter your shapes length : "))
 
-years = int(input("How much years of  work expirence do you have in this company? : "))
+width = float(input("Enter your shapes width : "))
 
-if years > 5:
-        print("Your salary with bonus is : " + str((salary+(salary*5)/100)))
-else:
-        print("Your work expireience is not greater than 5 years. So you have NO BONUS!")
+if length == width :
+        print ("You have a square!")
+else :
+        print("You do not have a square!")
