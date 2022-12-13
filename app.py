@@ -1,10 +1,14 @@
-price = 100
-items = int(input("How much products did you buy ? "))
+mark = float(input("Enter your Marks : "))
 
-total = price*items
-
-if total > 1000:
-        print("Your total is " + str(total))
-        print("Your total with 10% discount is " + str((total - (total*10)/100)))
+if mark < 25 and mark > 0:
+        print("Your grade is : F")
+elif mark <= 45:
+        print("Your grade is : D")
+elif mark <= 50:
+        print("Your grade is : D")
+elif mark <= 60:
+        print("Your grade is : C")
+elif mark <= 80:
+        print("Your grade is : B")
 else :
-        print("Your total is " + str(total))
+        print("Your grade is : A")
