@@ -1,17 +1,8 @@
-secret_word = "melbin"
-guess = ""
+salary = int(input("Enter your salary : "))
 
-no_of_guess = 0
-guess_limit = 3
-lost = False
+years = int(input("How much years of  work expirence do you have in this company? : "))
 
-while secret_word != guess and not(lost):
-        if no_of_guess < guess_limit:
-                guess = input("I am you Enter Who am I: ")
-                no_of_guess += 1
-        else:
-                lost = True
-if lost:
-        print("You have no guesses left and YOU LOST THE GAME!")
+if years > 5:
+        print("Your salary with bonus is : " + str((salary+(salary*5)/100)))
 else:
-        print("You won!")
+        print("Your work expireience is not greater than 5 years. So you have NO BONUS!")
