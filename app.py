@@ -1,6 +1,8 @@
 mark = float(input("Enter your Marks : "))
 
-if mark < 25 and mark > 0:
+if mark < 0 :
+        print("Invalid input")
+elif mark < 25:
         print("Your grade is : F")
 elif mark <= 45:
         print("Your grade is : D")
