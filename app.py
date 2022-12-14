@@ -1,10 +1,7 @@
 i = 1
-j = 1
-while i <= 5:
-        print("Someone ", end="")
-        while j <= 5:
-                print("rocks ", end="")
-                j += 1
+
+while i <= 10:
+        print("Some text" , i)
+        if i == 10:
+                break
         i+=1
-        j = 1
-        print()
