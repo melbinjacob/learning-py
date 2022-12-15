@@ -1,5 +1,6 @@
 i = 1
-
+num = 108
 while i <= 10:
-        print(i * i)
+        num-=8
+        print(num)
         i += 1
