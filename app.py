@@ -1,7 +1,6 @@
-#Q3
+num = input("Enter a number : ")
 
-for i in range(21):
-
-        if i % 2 != 0:
-                print(i)
-
+count = 0
+for i in num:
+        count += 1
+print(count)
