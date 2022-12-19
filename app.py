@@ -1,16 +1,15 @@
-tup = (
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-)
+name = [
+        "Arun",
+        "Varun",
+        "Ajith"
+]
 
-for i in tup :
-        print(i)
-        if i == "Friday":
-            break
-else:
-        print("Loop completed!")
+last_name = [
+        "leo",
+        "PH",
+        "Mo"
+]
+
+for n in name:
+        for l in last_name:
+                print(n,l)
