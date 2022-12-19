@@ -1,15 +1,14 @@
-name = [
-        "Arun",
-        "Varun",
-        "Ajith"
-]
+def fun(b):
+        a = int(b)
+        print(a*a)
 
-last_name = [
-        "leo",
-        "PH",
-        "Mo"
-]
+# fun(b = input("Enter a number : "))
 
-for n in name:
-        for l in last_name:
-                print(n,l)
+
+def calc():
+
+        a = int(input("Enter a number : "))
+        b = int(input("Enter another number : "))
+        print(a + b)
+
+calc()
