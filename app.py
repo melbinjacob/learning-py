@@ -4,5 +4,5 @@ dict = {
         "Orange" : "Orange"
 }
 
-for i in dict.values():
+for i in dict.items():
         print (i)
