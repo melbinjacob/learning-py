@@ -1,14 +1,4 @@
-def fun(b):
-        a = int(b)
-        print(a*a)
+def string_fn(name):
+        print("Your name have " + str(len(name)) + " Letters")
 
-# fun(b = input("Enter a number : "))
-
-
-def calc():
-
-        a = int(input("Enter a number : "))
-        b = int(input("Enter another number : "))
-        print(a + b)
-
-calc()
+string_fn(input("Enter your name : "))
