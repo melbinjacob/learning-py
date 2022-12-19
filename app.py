@@ -1,8 +1,8 @@
 dict = {
         "Apple" : "Red",
         "Banana" : "Yellow",
-        "Orange" : "Orange",
+        "Orange" : "Orange"
 }
 
-for i in dict.keys():
+for i in dict.values():
         print (i)
