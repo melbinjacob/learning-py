@@ -9,4 +9,6 @@ tup = (
 )
 
 for i in tup :
-        print(i, end=" ")
+        print(i)
+else:
+        print("Loop completed!")
