@@ -10,5 +10,7 @@ tup = (
 
 for i in tup :
         print(i)
+        if i == "Friday":
+            break
 else:
         print("Loop completed!")
