@@ -1,8 +1,12 @@
-dict = {
-        "Apple" : "Red",
-        "Banana" : "Yellow",
-        "Orange" : "Orange"
-}
+tup = (
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+)
 
-for i in dict.items():
-        print (i)
+for i in tup :
+        print(i, end=" ")
