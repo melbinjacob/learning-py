@@ -1,19 +1,8 @@
-list = [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-]
-sum = 0
+dict = {
+        "Apple" : "Red",
+        "Banana" : "Yellow",
+        "Orange" : "Orange",
+}
 
-
-for i in list :
-        if i % 2 == 0:
-                sum = sum + 1
-print(sum)
+for i in dict.keys():
+        print (i)
