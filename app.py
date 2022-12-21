@@ -1,4 +1,6 @@
-def string_fn(name):
-        print("Your name have " + str(len(name)) + " Letters")
-
-string_fn(input("Enter your name : "))
+def oddEven(sarang):
+        if sarang % 2 == 0:
+                print("Even")
+        else: 
+                print("Odd")                          
+oddEven(2)
