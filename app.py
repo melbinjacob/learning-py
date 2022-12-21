@@ -1,5 +1,3 @@
 def shippingCharge(pp, dr, sc):
-        total = pp*((100-dr)/100)+sc
-        print(total)
-
+        print(pp*((100-dr)/100)+sc)
 shippingCharge(1000, 5, 50)
