@@ -1,6 +1,6 @@
-def oddEven(sarang):
-        if sarang % 2 == 0:
-                print("Even")
+def majorMinor(age):
+        if age <  18:
+                print("You are a minor")
         else: 
-                print("Odd")                          
-oddEven(2)
+                print("You are a major")                          
+majorMinor(2)
