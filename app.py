@@ -1,6 +1,5 @@
-def majorMinor(age):
-        if age <  18:
-                print("You are a minor")
-        else: 
-                print("You are a major")                          
-majorMinor(2)
+def shippingCharge(pp, dr, sc):
+        total = pp*((100-dr)/100)+sc
+        print(total)
+
+shippingCharge(1000, 5, 50)
