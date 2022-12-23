@@ -1,12 +1,4 @@
-count = 0
-def callCounter():
-        global count
-        count += 1
-        print("CallCounter have called " + str(count) + " times")
+def findTotal(num1=0, num2=0, num3=0):
+        print(num1+num2+num3)
 
-callCounter()
-callCounter()
-callCounter()
-callCounter()
-callCounter()
-
+findTotal(2, 4)
