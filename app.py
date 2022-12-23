@@ -1,3 +1,12 @@
-def shippingCharge(pp, dr, sc):
-        print(pp*((100-dr)/100)+sc)
-shippingCharge(1000, 5, 50)
+count = 0
+def callCounter():
+        global count
+        count += 1
+        print("CallCounter have called " + str(count) + " times")
+
+callCounter()
+callCounter()
+callCounter()
+callCounter()
+callCounter()
+
