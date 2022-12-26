@@ -1,7 +1,2 @@
-print(1+1)
-print(2-1)
-print(2*4)
-print(2**4)
-print(10/3)
-print(10//3)
-print(10%3)
+x = 10
+print(x + 2)
