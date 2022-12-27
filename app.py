@@ -1,13 +1,14 @@
-sum_even = 0
+cont = ""
+def oddEven(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+    global cont 
+    cont = input("Do you want to check another number?(Y) or press any other key to exit!: ")
 
-li_odd = []
-li_even = []
 
-for i in range (1,51,2):
-    
-    sum_even += i
-    li_even.append(i)
-    li_odd.append(i+1)
+oddEven(int(input("Enter a number: ")))
 
-print(li_even)
-print(li_odd)
+while cont.upper() == "Y":
+    oddEven(int(input("Enter a number: ")))
