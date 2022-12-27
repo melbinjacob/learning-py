@@ -1,11 +1,9 @@
-i = 1
-j = 10
-k = 0
-while i <= 10:
-    print(j* " ",end="")
-    print(i * "*",end="")
-    print(k * "*")
-    i += 1
-    j -= 1
-    k += 1
-print("Done")
+num = int(input("Enter a number: "))
+if num % 5 == 0 and num % 3 == 0 :
+    print("TF")
+elif num % 3 == 0:
+    print("T")
+elif num % 5 == 0:
+    print("F")
+else:
+    print("Not T, nor F")
