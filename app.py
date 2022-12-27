@@ -1,14 +1,11 @@
-cont = ""
-def oddEven(num):
-    if num % 2 == 0:
+while True:
+    num = int(input("Enter a number: "))
+    if num % 2 == 0 :
         print("Even")
     else:
         print("Odd")
-    global cont 
-    cont = input("Do you want to check another number?(Y) or press any other key to exit!: ")
-
-
-oddEven(int(input("Enter a number: ")))
-
-while cont.upper() == "Y":
-    oddEven(int(input("Enter a number: ")))
+    k = input("Do you want to continue (Press Y): \n Else press any key:")
+    if k.lower() == "y":
+        continue
+    else:
+        break
