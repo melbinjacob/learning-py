@@ -1,9 +1,4 @@
-num = int(input("Enter a number: "))
-if num % 5 == 0 and num % 3 == 0 :
-    print("TF")
-elif num % 3 == 0:
-    print("T")
-elif num % 5 == 0:
-    print("F")
-else:
-    print("Not T, nor F")
+sum = 0
+for i in range(1,51,2): #(Starting value, Ending value, Adding by)
+    sum = sum + i
+print(sum)
