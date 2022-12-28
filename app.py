@@ -1,27 +1,26 @@
-li = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    13
+user_name = [
+    "Mel",
+    "Jaz",
+    "Dev"
 ]
 
+password = [
+    "pass1",
+    "pass1",
+    "pass3"
+]
 
-sumOdd = 0
-for i in li:
-    if i % 2 == 1:
-        sumOdd += i
-print(sumOdd)
+password_input = ""
 
-i = 0
-sum2 = 0
-while i < len(li):
-    if li[i] % 2 == 1:
-        sum2+=li[i]
-    i += 1
-print(sum2)
+user_name_input = input("Enter your username: ")
+if user_name_input in user_name:
+    password_input = input("Enter your password: ")
+    posu = user_name.index(user_name_input)
+    posp = password.index(password_input)
+else:
+    print("User not found!")
+if posu == posp:
+    
+    print("Welcome " + user_name_input)
+else:
+    print("Wrong password")
