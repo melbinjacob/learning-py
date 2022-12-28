@@ -1,25 +1,34 @@
-user_name = [
-    "Mel",
-    "Jaz",
-    "Dev"
+students = [
+    "Arun",
+    "Barun",
+    "Carun",
+    "Darun",
 ]
 
-password = [
-    "pass1",
-    "pass1",
-    "pass3"
+s1 = [
+    10,
+    11,
+    12,
+    13
+]
+s2 = [
+    20,
+    21,
+    22,
+    23
+]
+s3 = [
+    30,
+    31,
+    32,
+    33
 ]
 
-password_input = ""
-
-user_name_input = input("Enter your username: ")
-if user_name_input in user_name:
-    password_input = input("Enter your password: ")
-    posu = user_name.index(user_name_input)
-    posp = password.index(password_input)
-    if posu == posp:
-            print("Welcome " + user_name_input)
-    else:
-        print("Wrong password")
+student = input("What is your name: ")
+if student in students:
+    sutPos = students.index(student)
+    for i in s1, s2, s3:
+        sum = s1[sutPos] + s2[sutPos] + s3[sutPos]
+    print(student + " your total marks is " + str(sum))
 else:
-    print("User not found!")
+    print("Student not found!")
