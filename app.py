@@ -17,10 +17,9 @@ if user_name_input in user_name:
     password_input = input("Enter your password: ")
     posu = user_name.index(user_name_input)
     posp = password.index(password_input)
+    if posu == posp:
+            print("Welcome " + user_name_input)
+    else:
+        print("Wrong password")
 else:
     print("User not found!")
-if posu == posp:
-    
-    print("Welcome " + user_name_input)
-else:
-    print("Wrong password")
