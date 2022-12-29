@@ -1,18 +1,10 @@
-color = input("Enter the first letter of a color: ")
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+num3 = int(input("Enter anoter number again: "))
 
-if color.upper() == "V":
-    print("Vilot")
-elif color.upper() == "I":
-    print("Indigo")
-elif color.upper() == "B":
-    print("Blue")
-elif color.upper() == "G":
-    print("Blue")
-elif color.upper() == "Y":
-    print("Yellow")
-elif color.upper() == "O":
-    print("Orange")
-elif color.upper() == "R":
-    print("Rec")
-else:
-    print("Invalid input")
+if num1>num2>num3:
+    print("First number " + str(num1) + " is the biggest number.")
+elif num2>num1>num3:
+    print("Second number " + str(num2) + " is the biggest number.")
+elif num3>num2>num1:
+    print("Third number " + str(num3) + " is the biggest number.")
