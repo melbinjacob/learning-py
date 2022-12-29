@@ -1,34 +1,18 @@
-students = [
-    "Arun",
-    "Barun",
-    "Carun",
-    "Darun",
-]
+color = input("Enter the first letter of a color: ")
 
-s1 = [
-    10,
-    11,
-    12,
-    13
-]
-s2 = [
-    20,
-    21,
-    22,
-    23
-]
-s3 = [
-    30,
-    31,
-    32,
-    33
-]
-
-student = input("What is your name: ")
-if student in students:
-    sutPos = students.index(student)
-    for i in s1, s2, s3:
-        sum = s1[sutPos] + s2[sutPos] + s3[sutPos]
-    print(student + " your total marks is " + str(sum))
+if color.upper() == "V":
+    print("Vilot")
+elif color.upper() == "I":
+    print("Indigo")
+elif color.upper() == "B":
+    print("Blue")
+elif color.upper() == "G":
+    print("Blue")
+elif color.upper() == "Y":
+    print("Yellow")
+elif color.upper() == "O":
+    print("Orange")
+elif color.upper() == "R":
+    print("Rec")
 else:
-    print("Student not found!")
+    print("Invalid input")
