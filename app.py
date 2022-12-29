@@ -1,10 +1,10 @@
 num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-num3 = int(input("Enter anoter number again: "))
+num2 = int(input("Enter anoter number: "))
+num3 = int(input("Enter another number again: "))
 
-if num1>num2>num3:
-    print("First number " + str(num1) + " is the biggest number.")
-elif num2>num1>num3:
-    print("Second number " + str(num2) + " is the biggest number.")
-elif num3>num2>num1:
-    print("Third number " + str(num3) + " is the biggest number.")
+if num1 > num2 and num1 > num2:
+    print("The first number ", num1, " is the bigger number.")
+elif num2 > num3:
+    print("The second number ", num2, " is the bigger number.")
+else:
+    print("The third number ", num3, " is the bigger number.")
