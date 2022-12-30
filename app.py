@@ -1,17 +1,20 @@
-users ={
-    "Arun" : "Pass1",
-    "Brun" : "Pass2",
-    "Crun" : "Pass3",
-    "Drun" : "Pass4",
-    "Erun" : "Pass5",
-}
+len1 = 4
+len2 = 5
+len3 = 3
 
-user_name = input("Enter your username: ")
-if user_name in users:
-    password = input("Enter your password: ")
-    if users[user_name] == password:
-        print("Welcome " + user_name)
+
+if len1 > len2 and len1 > len3:
+    if len1 * len1 == len2*len2 + len3*len3:
+        print("Square triangle")
     else:
-        print("Wrong password!")
+        print("Not a square triangle")
+elif len2 > len3:
+    if len2 * len2 == len1*len1 + len3*len3:
+        print("Square triangle")
+    else:
+        print("Not a square triangle")
 else:
-    print("User not found!")
+    if len3 * len3 == len2*len2 + len1*len1:
+        print("Square triangle")
+    else:
+        print("Not a square triangle")
