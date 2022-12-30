@@ -1,10 +1,17 @@
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter anoter number: "))
-num3 = int(input("Enter another number again: "))
+users ={
+    "Arun" : "Pass1",
+    "Brun" : "Pass2",
+    "Crun" : "Pass3",
+    "Drun" : "Pass4",
+    "Erun" : "Pass5",
+}
 
-if num1 > num2 and num1 > num2:
-    print("The first number ", num1, " is the bigger number.")
-elif num2 > num3:
-    print("The second number ", num2, " is the bigger number.")
+user_name = input("Enter your username: ")
+if user_name in users:
+    password = input("Enter your password: ")
+    if users[user_name] == password:
+        print("Welcome " + user_name)
+    else:
+        print("Wrong password!")
 else:
-    print("The third number ", num3, " is the bigger number.")
+    print("User not found!")
