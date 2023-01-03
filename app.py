@@ -1,37 +1,30 @@
-print("Welcome to my Game!")
-playing = input("Do you want to play the game? ")
-if playing.upper() != "YES":
-    quit()
-print("Okay! let's play :)")
-score = 0
+import random
+top_of_range = input("Enter a number: ")
 
-answer = input("What does CPU stand for? ")
-if answer.upper() == "CENTRAL PROCESSING UNIT":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect!")
+if top_of_range.isdigit():
+    top_of_range = int(top_of_range)
+    if top_of_range <= 0:
+        print("Please type a number larger than 0 next time.")
+        quit()
+else :
+    print("Please type a number next time.")
+random_number = random.randint(0, top_of_range)
 
-answer = input("What does GPU stand for? ")
-if answer.upper() == "GRAPHICS PROCESSING UNIT":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect!")
+guesses = 0
 
-answer = input("What does RAM stand for? ")
-if answer.upper() == "RANDOM ACESS MEMORY":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect!")
-
-answer = input("What does PSU stands for? ")
-if answer.upper() == "POWER SUPPLY":
-    print("Correct!")
-    score += 1
-else:
-    print("Incorrect!")
-
-print("Your score is " + str(score))
-print("Your percentage is " + str((score/4)*100)+"%")
+while True:
+    guesses += 1
+    user_guess = input("Enter your guess: ")
+    if user_guess.isdigit():
+        user_guess = int(user_guess)
+    else :
+        print("Please type a number next time.")
+        continue
+    if user_guess == random_number:
+        print("Your got it right!")
+        break
+    elif user_guess < random_number:
+        print("Try a higher number next time!")
+    else:
+        print("Try a lower number next time!")
+print("You took", guesses, "tries")
