@@ -1,30 +1,37 @@
 import random
-top_of_range = input("Enter a number: ")
 
-if top_of_range.isdigit():
-    top_of_range = int(top_of_range)
-    if top_of_range <= 0:
-        print("Please type a number larger than 0 next time.")
-        quit()
-else :
-    print("Please type a number next time.")
-random_number = random.randint(0, top_of_range)
+user_wins = 0
+computer_wins = 0
 
-guesses = 0
+options = ["rock", "paper", "sissors"]
 
 while True:
-    guesses += 1
-    user_guess = input("Enter your guess: ")
-    if user_guess.isdigit():
-        user_guess = int(user_guess)
-    else :
-        print("Please type a number next time.")
-        continue
-    if user_guess == random_number:
-        print("Your got it right!")
+    user_input = input("Type Rock/Paper/Sissors or Q to Quit: ").lower()
+    if user_input == "q":
         break
-    elif user_guess < random_number:
-        print("Try a higher number next time!")
+    if user_input not in options:
+        print("Enter a valid input")
+        continue
+    
+    random_number = random.randint(0,2)
+    computer_pick = options[random_number]
+    print("Computer picked", computer_pick + ".")
+
+    if computer_pick == user_input:
+        print("You also picked", user_input , "Nobody won.")
+    elif user_input == "rock" and computer_pick == "sissors":
+        print("You won!")
+        user_wins += 1
+    elif user_input == "paper" and computer_pick == "rock":
+        print("You won!")
+        user_wins += 1
+    elif user_input == "sissors" and computer_pick == "paper":
+        print("You won!")
+        user_wins += 1
     else:
-        print("Try a lower number next time!")
-print("You took", guesses, "tries")
+        print("You lost!")
+        computer_wins += 1
+    
+print("You got", user_wins , "Points.")
+print("The computer got", computer_wins , "Points.")
+print("Goodbye!")
