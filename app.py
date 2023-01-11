@@ -1,15 +1,8 @@
-#Empty list
-myLIst = []
-print(myLIst)
+aList = [
+    ["A","B","C"],
+    ["a","b","c"],
+    [1,2,3,["z","y","x"]],
+    ["Hello"]
+]
 
-#List of intigers
-myLIst=[1,2,3]
-print(myLIst)
-
-#List with mixed data types
-myLIst=[1,"Hello",4.5]
-print(myLIst)
-
-#Nested list with mixed data types
-myLIst=[2,[2,4,5,4],"Potato"]
-print(myLIst)
+print(aList[2][3][-1])
