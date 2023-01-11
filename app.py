@@ -1,6 +1,4 @@
-a = 1
-b = 2
-a,b = b,a
+fName = input("Enter your first Name: ")
+lName = input("Enter your Last Name: ")
 
-print("{}{}".format("c", a))
-print("{}{}".format("c", b))
+print("Hello " + lName + " " + fName)
