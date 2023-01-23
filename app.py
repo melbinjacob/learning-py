@@ -5,6 +5,9 @@ set = {
     "black"
 }
 
+for x in set:
+    print(x)
+
 if "white" in set:
     print("Yes white is in this set")
 else:
