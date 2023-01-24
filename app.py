@@ -1,5 +1,6 @@
-def read_file(fname):
-    with open("test.txt","r") as f:
-        li = f.readlines()
-        print(li)
-read_file("test.txt")
+li = []
+with open("test.txt","r") as f:
+    for x in f:
+        li.append(x.strip())
+    f.close()
+print(li)
