@@ -1,4 +1,2 @@
-a =  ("apple", "banana", "cherry")
-
-b = enumerate(a)
-print(tuple(b))
+import os
+os.remove("file.x")
