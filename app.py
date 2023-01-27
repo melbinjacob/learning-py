@@ -1,10 +1,8 @@
-class Animal:
-    def __init__(myAnim, name, age):
-        myAnim.name = name
-        myAnim.age = age
-    def animPrint(aName):
-        print("Hey my animal is " + aName.name + " and he is " + aName.age)
-nm = input("What is your animals name: ")  
-ag = input("Your animals age: ")
-a = Animal(nm,ag)
-a.animPrint()
+class apples:
+    n = 0
+    def __init__(self):
+        apples.n +=1
+a1 = apples()
+a2 = apples()
+a3 = apples()
+print("We have", apples.n, "Apples")
