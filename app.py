@@ -1,10 +1,10 @@
-try:
-  f = open("demofile.txt")
-  try:
-    f.write("Lorum Ipsum")
-  except:
-    print("Something went wrong when writing to the file")
-  finally:
-    f.close()
-except:
-  print("Something went wrong when opening the file")
+class Animal:
+    def __init__(myAnim, name, age):
+        myAnim.name = name
+        myAnim.age = age
+    def animPrint(aName):
+        print("Hey my animal is " + aName.name + " and he is " + aName.age)
+nm = input("What is your animals name: ")  
+ag = input("Your animals age: ")
+a = Animal(nm,ag)
+a.animPrint()
