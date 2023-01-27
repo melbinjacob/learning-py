@@ -1,8 +1,13 @@
-class apples:
-    n = 0
-    def __init__(self):
-        apples.n +=1
-a1 = apples()
-a2 = apples()
-a3 = apples()
-print("We have", apples.n, "Apples")
+class findsum:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def addNum(x):
+        sum = x.a + x.b
+        print("Your sum is", sum)
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+
+x = findsum(num1,num2)
+x.addNum()
